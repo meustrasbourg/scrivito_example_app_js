@@ -61,10 +61,10 @@ function sliderSettings(testimonials) {
   });
 
   return {
-    autoplay: true,
+    autoplay: false,
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 100,
     dotsClass: "testimonial-slider-widget--quote-portrait-wrapper",
     customPaging: i => {
       const image = testimonialAuthorImages[i];
